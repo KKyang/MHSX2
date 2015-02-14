@@ -1,4 +1,4 @@
-### Monster Hunter Frontier G Equipment Configurator
+# Monster Hunter Frontier G Equipment Configurator
 
 This is an equipment configurator for MHFG. Original by ◆7SJ5A6iS9s.
 
@@ -10,7 +10,7 @@ Website: http://www.geocities.jp/mhfclv/index.html
 
 I put the source on GitHub for further maintenance.
 
-[Development Environment]
+### [Development Environment]
 
 Visual Studio Professional 2013 C# using .NET 3.5
 
