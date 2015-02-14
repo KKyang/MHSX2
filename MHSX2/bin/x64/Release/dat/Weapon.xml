@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+MHSX2 原作者：http://mhsx2.web.fc2.con 繁體譯：蘋果核戰 Game ID : 藍羽淺蔥
+-->
+<Wepon>
+  <normal>
+    <Data Name="武器槽位１" Sex="共" Job="共" Rare="1" Rusta="1">
+      <Elemental Fire="0" Water="0" Thunder="0" Ice="0" Dragon="0" />
+      <Level>
+        <L1 Atk="0" Slot="1">
+          <Cost Money="0" />
+        </L1>
+      </Level>
+    </Data>
+    <Data Name="武器槽位２" Sex="共" Job="共" Rare="1" Rusta="1">
+      <Elemental Fire="0" Water="0" Thunder="0" Ice="0" Dragon="0" />
+      <Level>
+        <L1 Atk="0" Slot="2">
+          <Cost Money="0" />
+        </L1>
+      </Level>
+    </Data>
+    <Data Name="武器槽位３" Sex="共" Job="共" Rare="1" Rusta="1">
+      <Elemental Fire="0" Water="0" Thunder="0" Ice="0" Dragon="0" />
+      <Level>
+        <L1 Atk="0" Slot="3">
+          <Cost Money="0" />
+        </L1>
+      </Level>
+    </Data>
+  </normal>
+</Wepon>
+<!--
+MHSX2 原作者：http://mhsx2.web.fc2.con 繁體譯：蘋果核戰 Game ID : 藍羽淺蔥
+-->

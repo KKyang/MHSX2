@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ThreadNum>8</ThreadNum>
+  <StopSearchCount>10000</StopSearchCount>
+  <OptimizeEquip>false</OptimizeEquip>
+  <Priority>BelowNormal</Priority>
+  <IgnoreItem>true</IgnoreItem>
+  <IgnoreSkill>false</IgnoreSkill>
+  <IgnoreClass>false</IgnoreClass>
+  <FavoriteSkills />
+  <SkillSets />
+  <sex>MAN</sex>
+  <def_lower>0</def_lower>
+  <rare_lower>1</rare_lower>
+  <rare_upper>20</rare_upper>
+  <HRLimit>3999</HRLimit>
+  <PictureServer>http://fortune.adam.ne.jp/mhf/cbbs/file</PictureServer>
+  <UseNetwork>true</UseNetwork>
+  <MainBounds>
+    <X>1121</X>
+    <Y>340</Y>
+    <Width>1024</Width>
+    <Height>768</Height>
+    <State>Normal</State>
+  </MainBounds>
+  <EditBounds>
+    <X>0</X>
+    <Y>0</Y>
+    <Width>1024</Width>
+    <Height>768</Height>
+    <State>Normal</State>
+  </EditBounds>
+  <PlaySound>true</PlaySound>
+  <SoundFilePath>C:\WINDOWS\Media\notify.wav</SoundFilePath>
+  <CheckNewVersion>true</CheckNewVersion>
+  <LastVersionCheckDate>20150207</LastVersionCheckDate>
+  <PigClothes />
+</Settings>

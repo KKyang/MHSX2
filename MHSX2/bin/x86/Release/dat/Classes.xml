@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+MHSX2 原作者：http://mhsx2.web.fc2.con 繁體譯：蘋果核戰 Game ID : 藍羽淺蔥
+-->
+<Classes>
+  <Equip>
+    <ParentClass Name="課金">
+      <ParentClass Name="套裝/產包/ガチャ/網咖">
+       <ParentClass Name="產品包系列">
+        <Class Text="產保防具">(產包)</Class>
+        <Class Text="產包ＨＣ防具">(產包HC)</Class>
+        <Class Text="產包ＨＳ防具">(產包HS)</Class>
+        <Class Text="產包ＧＳ防具">(產包GS)</Class>
+        <Class Text="產包ＧＰ防具">(產包GP)</Class>
+       </ParentClass>
+       <ParentClass Name="套裝系列">
+        <Class Text="套裝防具">(套裝)</Class>
+        <Class Text="套裝ＨＣ防具">(套裝HC)</Class>
+        <Class Text="套裝ＨＳ防具">(套裝HS)</Class>
+        <Class Text="套裝ＧＳ防具">(套裝GS)</Class>
+        <Class Text="套裝ＧＰ防具">(套裝GP)</Class>
+       </ParentClass>
+       <ParentClass Name="ガチャ系列">
+        <Class Text="ガチャ秘傳防具">(ガ秘)</Class>
+        <Class Text="ガチャＧ秘防具">(ガＧ秘)</Class>
+        <Class Text="ガチャ防具">(ガ)</Class>
+        <Class Text="ガチャＨＣ防具">(ガHC)</Class>
+        <Class Text="ガチャＨＳ防具">(ガHS)</Class>
+        <Class Text="ガチャＧＳ防具">(ガGS)</Class>
+        <Class Text="ガチャＧＰ防具">(ガGP)</Class>
+       </ParentClass>
+        <ParentClass Name="網咖系列">
+        <Class Text="網咖防具">(網咖)</Class>
+        <Class Text="網咖ＨＣ防具">(網咖HC)</Class>
+        <Class Text="網咖ＨＳ防具">(網咖HS)</Class>
+        <Class Text="網咖ＧＳ防具">(網咖GS)</Class>
+        <Class Text="網咖ＧＰ防具">(網咖GP)</Class>
+       </ParentClass>
+<!--
+        <Class Text="Ｇ級狩護防具">(GS)</Class>
+        <Class Text="Ｇ級狩護防具">(GP)</Class>
+-->
+       </ParentClass>
+       <ParentClass Name="活動/特典">
+        <Class Text="ＨＬ生產券防具">(HL)</Class>
+        <Class Text="ＥＸ生產券防具">(EX)</Class>
+       <ParentClass Name="活動/特典">
+        <Class Text="特典防具">(特)</Class>
+        <Class Text="特典ＨＣ防具">(特HC)</Class>
+        <Class Text="特典ＨＳ防具">(特HS)</Class>
+        <Class Text="特典ＧＳ防具">(特GS)</Class>
+        <Class Text="特典ＧＰ防具">(特GP)</Class>
+       </ParentClass>
+        <Class Text="PlayStation®3 限定">(PS3)</Class>
+        <Class Text="Wii U 限定">(Wii)</Class>
+       </ParentClass>
+    </ParentClass>
+    <ParentClass Name="獵團、獵人祭">
+       <ParentClass Name="獵團系列">
+        　　<Class Text="專屬獵團可獲得的防具(獵團用券、活動補助券)">(獵)</Class>
+            <Class Text="專屬獵團可獲得的防具(獵團用券、活動補助券)">(獵HS)</Class>
+            <Class Text="專屬獵團可獲得的防具(獵團用券、活動補助券)">(獵Ｇ)</Class>
+        　　<Class Text="專屬獵團可獲得的防具(獵團用券、活動補助券)">(獵GX)</Class>
+       </ParentClass>
+      <ParentClass Name="獵人祭">
+        <Class Text="祭典的回憶">(祭)</Class>
+        <Class Text="祭典的回憶">(祭FX)</Class>
+        <Class Text="祭典的回憶">(祭RX)</Class>
+        <Class Text="祭典的回憶">(祭LX)</Class>
+        <Class Text="祭典的回憶">(祭HC)</Class>
+        <Class Text="祭典的回憶">(祭HS)</Class>
+        <Class Text="祭典的回憶">(祭Ｇ)</Class>
+        <Class Text="祭典的回憶">(祭GX)</Class>
+        <Class Text="獵人祭獎勵防具(祭典過後【勝貓】／祭典過後【敗犬】)">(祭他)</Class>
+      </ParentClass>
+    </ParentClass>
+  	<ParentClass Name="基本狩獵・採集">
+        <Class Text="狩獵・採集可製作防具">無分類</Class>
+   	  <ParentClass Name="HR100～系">
+		  	<Class Text="FX防具(活動/祭防具FX派生)">(FX)</Class>
+       <Class Text="剛種防具(使用「剛種討伐之證」生產)">(剛)</Class>
+      </ParentClass>
+      <ParentClass Name="Ｇ級任務">
+       <Class Text="Ｇ級防具（課金防具除外)">(Ｇ)</Class>
+       <Class Text="Ｇ級最上位防具(課金防具除外)">(GX)</Class>
+       <Class Text="Ｇ級霸種防具">(Ｇ霸)</Class>
+       <Class Text="烈種防具">(烈)</Class>
+       <Class Text="Ｇ級秘傳防具">(Ｇ秘)</Class>
+      </ParentClass>
+      <ParentClass Name="HC任務">
+       <Class Text="LX防具(「大自然的聲音」「HC魔物素材」使用)">(LX)</Class>
+       <Class Text="RX防具(「大自然的聲音」「HC魔物素材」使用)">(RX)</Class>
+       <Class Text="HC防具(簡易秘傳防具、活動HC防具等。HC課金防具除外)">(HC)</Class>
+       <Class Text="HS防具(簡易狩護防具、活動HC防具等。HC課金防具除外)">(HS)</Class>
+       <Class Text="天嵐防具(剛種防具「HC魔物素材」強化)">(天)</Class>
+       <Class Text="霸種防具(天嵐防具「HC魔物素材」強化)">(霸)</Class>
+       <Class Text="秘傳防具(「SR武具魂」「HC魔物素材」使用)">(秘)</Class>
+   		</ParentClass>
+   	  <ParentClass Name="HR100～系">
+		   <Class Text="FX防具(活動/祭防具FX派生)">(FX)</Class>
+       <Class Text="剛種防具(使用「剛種討伐之證」生產)">(剛)</Class>
+      </ParentClass>
+  	  </ParentClass>
+    <ParentClass Name="活動系">
+      <Class Text="活動任務防具">(活動)</Class>
+      <Class Text="謎任務防具(波爾多輝石)">(謎)</Class>
+      <Class Text="公式狩獵大会褒賞防具">(韋)</Class>
+      <Class Text="公式狩獵大会褒賞ＨＣ防具">(韋HC)</Class>
+    </ParentClass>
+    <ParentClass Name="入手不可能">
+      <Class Text="作成素材入手任務未配信">(未)</Class>
+      <Class Text="作成不可、訓練専用">(不)</Class>
+    </ParentClass>
+  </Equip>
+  <Jewelry>
+    <ParentClass Name="技能鈕扣Ｐ">
+      <Class Text="課金鈕扣">(P)</Class>
+      <Class Text="課金鈕扣Ⅱ(鈕扣生産券Ⅱ)">(P_Ⅱ)</Class>
+      <Class Text="網咖鈕扣">(P網咖)</Class>
+      <Class Text="特別活動鈕扣">(P活動)</Class>
+      <Class Text="キャンペーン/特典鈕扣">(P特典)</Class>
+      <Class Text="Ｇ級課金鈕扣(鈕扣生産券Ｇ)">(P_Ｇ)</Class>
+      <Class Text="未實裝">(P未裝)</Class>
+      <Class Text="無法製作">(P_不)</Class>
+    </ParentClass>
+    <ParentClass Name="技能鈕扣Ｓ">
+      <Class Text="非課金鈕扣">(S)</Class>
+      <Class Text="活動任務鈕扣">(S活動)</Class>
+      <Class Text="謎任務鈕扣">(S謎任)</Class>
+      <Class Text="韋駄天鈕扣">(S韋馱)</Class>
+      <Class Text="獵團用券鈕扣">(S獵團)</Class>
+      <Class Text="狩人祭鈕扣">(S祭典)</Class>
+      <Class Text="Ｇ級非課金鈕扣(Ｇ級素材)">(SＧ狩)</Class>
+      <Class Text="未實裝">(S未裝)</Class>
+      <Class Text="無法製作">(S無法製作)</Class>
+    </ParentClass>
+    <ParentClass Name="飾品">
+      <Class Text="狩獵・採集生産">無分類</Class>
+      <Class Text="Ｇ級装飾品">(Ｇ)</Class>
+      <Class Text="Ｇ級装飾品(極限征伐戰報酬使用)">(GX)</Class>
+      <Class Text="ＳＰ装飾品">(SP)</Class>
+      <Class Text="ＳＰ装飾品・改">(SP改)</Class>
+      <Class Text="ＳＰ装飾品・真">(SP真)</Class>
+      <Class Text="未実装">(未)</Class>
+      <Class Text="無法製作">(不)</Class>
+    </ParentClass>
+  </Jewelry>
+</Classes>
+<!--
+MHSX2 原作者：http://mhsx2.web.fc2.con 繁體譯：蘋果核戰 Game ID : 藍羽淺蔥
+-->

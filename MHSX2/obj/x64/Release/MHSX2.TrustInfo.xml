@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><trustInfo xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2"><security><applicationRequestMinimum><PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site" Unrestricted="true" /><defaultAssemblyRequest permissionSetReference="Custom" /></applicationRequestMinimum><requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3"><!-- UAC マニフェスト オプション
+             Windows のユーザー アカウント制御のレベルを変更するには、
+             requestedExecutionLevel ノードを以下のいずれかで置換します。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            下位互換性のためにファイルおよびレジストリの仮想化を
+            利用する場合は、requestedExecutionLevel ノードを削除してください。
+        --><requestedExecutionLevel level="asInvoker" uiAccess="false" /></requestedPrivileges></security></trustInfo>

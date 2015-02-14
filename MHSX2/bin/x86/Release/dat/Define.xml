@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<!--
+MHSX2 原作者：http://mhsx2.web.fc2.con 繁體譯：蘋果核戰 Game ID : 藍羽淺蔥
+-->
+<Define xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GRankEquipType>
+    <string>Ｇ級狩護防具</string>
+    <string>Ｇ級防具</string>
+  </GRankEquipType>
+  <RankLimitKind>
+    <string>HR</string>
+    <string>SR</string>
+    <string>GR</string>
+    <string>GSR</string>
+  </RankLimitKind>
+</Define>
+<!--
+MHSX2 原作者：http://mhsx2.web.fc2.con 繁體譯：蘋果核戰 Game ID : 藍羽淺蔥
+-->

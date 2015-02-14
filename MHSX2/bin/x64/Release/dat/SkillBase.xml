@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+MHSX2 原作者：http://mhsx2.web.fc2.con 繁體譯：蘋果核戰 Game ID : 藍羽淺蔥
+-->
+<Skill>
+  <SkillType TypeName="體力・耐力系">
+    <Data ID="0730" Name="體力">
+      <Option Point="40">體力+50</Option>
+      <Option Point="30">體力+40</Option>
+      <Option Point="20">體力+30</Option>
+      <Option Point="15">體力+20</Option>
+      <Option Point="10">體力+10</Option>
+      <Option Point="-10">體力-10</Option>
+      <Option Point="-15">體力-20</Option>
+      <Option Point="-20">體力-30</Option>
+    </Data>
+    <Data ID="0740" Name="回復速度">
+      <Option Point="20">傷害回復速度+2</Option>
+      <Option Point="10">傷害回復速度+1</Option>
+      <Option Point="-10">傷害回復速度-1</Option>
+      <Option Point="-20">傷害回復速度-2</Option>
+    </Data>
+    <Data ID="1200" Name="回復">
+      <Option Point="10">體力回復道具強化</Option>
+      <Option Point="-10">體力回復道具弱化</Option>
+    </Data>
+    <Data ID="0450" Name="吸血">
+      <Option Point="20">吸血+2</Option>
+      <Option Point="10">吸血+1</Option>
+    </Data>
+    <Data ID="0480" Name="藥草學">
+      <Option Point="10">藥仙人</Option>
+    </Data>
+    <Data ID="0580" Name="氣力回復">
+      <Option Point="20">耐力急速回復【大】</Option>
+      <Option Point="10">耐力急速回復【小】</Option>
+      <Option Point="-10">耐力回復遲緩</Option>
+    </Data>
+    <Data ID="0950" Name="飢餓">
+      <Option Point="15">飢餓無效</Option>
+      <Option Point="10">飢餓減半</Option>
+      <Option Point="-10">飢餓加倍【小】</Option>
+      <Option Point="-15">飢餓加倍【大】</Option>
+    </Data>
+    <Data ID="1270" Name="耐力">
+      <Option Point="20">絕倫</Option>
+      <Option Point="10">跑者</Option>
+      <Option Point="-10">龜速</Option>
+    </Data>
+    <Data ID="1310" Name="用餐">
+      <Option Point="10">快吃</Option>
+      <Option Point="-10">散漫生活</Option>
+    </Data>
+    <Data ID="0960" Name="大胃王">
+      <Option Point="15">撿食</Option>
+      <Option Point="10">吃飽</Option>
+    </Data>
+  </SkillType>
+  <SkillType TypeName="攻擊系">
+    <Data ID="0130" Name="剛擊">
+      <Option Point="40">剛擊+5</Option>
+      <Option Point="30">剛擊+4</Option>
+      <Option Point="20">剛擊+3</Option>
+      <Option Point="15">剛擊+2</Option>
+      <Option Point="10">剛擊+1</Option>
+    </Data>
+    <Data ID="0970" Name="攻擊">
+      <Option Point="80">攻擊力UP【絶大】</Option>
+      <Option Point="50">攻擊力UP【特大】</Option>
+      <Option Point="25">攻擊力UP【大】</Option>
+      <Option Point="15">攻擊力UP【中】</Option>
+      <Option Point="10">攻擊力UP【小】</Option>
+    </Data>
+    <Data ID="0280" Name="一匹狼">
+      <Option Point="10">一匹狼</Option>
+    </Data>
+    <Data ID="0140" Name="一閃">
+      <Option Point="30">一閃+3</Option>
+      <Option Point="20">一閃+2</Option>
+      <Option Point="10">一閃+1</Option>
+    </Data>
+    <Data ID="0770" Name="達人">
+      <Option Point="50">看破+5</Option>
+      <Option Point="35">看破+4</Option>
+      <Option Point="20">看破+3</Option>
+      <Option Point="15">看破+2</Option>
+      <Option Point="10">看破+1</Option>
+    </Data>
+    <Data ID="0150" Name="痛擊">
+      <Option Point="20">弱點特效</Option>
+      <Option Point="-10">不擅弱點</Option>
+    </Data>
+    <Data ID="0510" Name="危險品的領會">
+      <Option Point="10">危險品處理師</Option>
+    </Data>
+    <Data ID="0930" Name="特殊攻擊">
+      <Option Point="10">狀態異常攻擊強化</Option>
+    </Data>
+    <Data ID="0940" Name="爆彈強化">
+      <Option Point="10">炸彈客</Option>
+    </Data>
+    <Data ID="1370" Name="砲術師">
+      <Option Point="35">砲術神</Option>
+      <Option Point="20">砲術王</Option>
+      <Option Point="10">砲術師</Option>
+    </Data>
+    <Data ID="0230" Name="鼓舞">
+      <Option Point="20">激勵+2</Option>
+      <Option Point="10">激勵+1</Option>
+    </Data>
+    <Data ID="1380" Name="吹笛名人">
+      <Option Point="10">吹笛名人</Option>
+    </Data>
+    <Data ID="1400" Name="體術">
+      <Option Point="20">格鬥王</Option>
+      <Option Point="10">體術</Option>
+    </Data>
+    <Data ID="0340" Name="逆境">
+      <Option Point="20">不屈不撓</Option>
+      <Option Point="10">不屈</Option>
+    </Data>
+    <Data ID="0310" Name="怒">
+      <Option Point="20">怒氣衝天</Option>
+      <Option Point="15">逆鱗</Option>
+    </Data>
+    <Data ID="1250" Name="突發力">
+      <Option Point="30">憂心(30)</Option>
+      <Option Point="21">火場怪力+1(21)</Option>
+      <Option Point="15">火場怪力+2</Option>
+      <Option Point="10">火場怪力+1</Option>
+      <Option Point="-15">憂心</Option>
+    </Data>
+    <Data ID="1550" Name="斷食">
+      <Option Point="20">餓狼+2</Option>
+      <Option Point="10">餓狼+1</Option>
+    </Data>
+    <Data ID="1650" Name="蓄力縮短">
+      <Option Point="20">集中+2</Option>
+      <Option Point="10">集中+1</Option>
+      <Option Point="-10">雜念</Option>
+    </Data>
+    <Data ID="0410" Name="蓄力威力">
+      <Option Point="20">蓄力威力UP+2</Option>
+      <Option Point="10">蓄力威力UP+1</Option>
+    </Data>
+    <Data ID="0560" Name="武器技術">
+      <Option Point="10">武器技術</Option>
+    </Data>
+    <Data ID="0270" Name="得意">
+      <Option Point="15">漸入佳境</Option>
+    </Data>
+    <Data ID="0460" Name="適應擊">
+      <Option Point="20">適應擊+2</Option>
+      <Option Point="10">適應擊+1</Option>
+    </Data>
+  </SkillType>
+  <SkillType TypeName="屬性攻擊強化性">
+    <Data ID="1500" Name="火屬性攻擊">
+      <Option Point="20">火屬性攻擊強化【大】</Option>
+      <Option Point="10">火屬性攻擊強化【小】</Option>
+    </Data>
+    <Data ID="1510" Name="水屬性攻擊">
+      <Option Point="20">水屬性攻擊強化【大】</Option>
+      <Option Point="10">水屬性攻擊強化【小】</Option>
+    </Data>
+    <Data ID="1520" Name="雷屬性攻擊">
+      <Option Point="20">雷屬性攻擊強化【大】</Option>
+      <Option Point="10">雷屬性攻擊強化【小】</Option>
+    </Data>
+    <Data ID="1530" Name="冰屬性攻擊">
+      <Option Point="20">冰屬性攻擊強化【大】</Option>
+      <Option Point="10">冰屬性攻擊強化【小】</Option>
+    </Data>
+    <Data ID="1540" Name="龍屬性攻擊">
+      <Option Point="20">龍屬性攻擊強化【大】</Option>
+      <Option Point="10">龍屬性攻擊強化【小】</Option>
+    </Data>
+    <Data ID="0570" Name="屬性攻擊">
+      <Option Point="10">屬性攻擊強化</Option>
+      <Option Point="-10">屬性攻擊弱化</Option>
+    </Data>
+  </SkillType>
+  <SkillType TypeName="防禦性">
+    <Data ID="0300" Name="生命力">
+      <Option Point="30">生命力+3</Option>
+      <Option Point="15">生命力+2</Option>
+      <Option Point="10">生命力+1</Option>
+      <Option Point="-10">生命力-1</Option>
+    </Data>
+    <Data ID="0220" Name="反射">
+      <Option Point="20">反射+3</Option>
+      <Option Point="15">反射+2</Option>
+      <Option Point="10">反射+1</Option>
+    </Data>
+    <Data ID="0980" Name="防禦">
+      <Option Point="45">防禦+120</Option>
+      <Option Point="35">防禦+90</Option>
+      <Option Point="25">防禦+60</Option>
+      <Option Point="15">防禦+30</Option>
+      <Option Point="10">防禦+20</Option>
+      <Option Point="-10">防禦-20</Option>
+      <Option Point="-15">防禦-30</Option>
+      <Option Point="-20">防禦-40</Option>
+    </Data>
+    <Data ID="0790" Name="防禦性能">
+      <Option Point="20">防禦性能+2</Option>
+      <Option Point="10">防禦性能+1</Option>
+      <Option Point="-10">防禦性能-1</Option>
+      <Option Point="-15">防禦性能-2</Option>
+    </Data>
+    <Data ID="0800" Name="自動防禦">
+      <Option Point="10">自動防禦</Option>
+    </Data>
+    <Data ID="1390" Name="遁逃">
+      <Option Point="10">遁逃</Option>
+    </Data>
+  </SkillType>
+  <SkillType TypeName="劍士系">
+    <Data ID="0780" Name="研磨師">
+      <Option Point="20">砥匠</Option>
+      <Option Point="10">砥石使用高速化</Option>
+      <Option Point="-10">砥石性能減半</Option>
+    </Data>
+    <Data ID="0750" Name="銳利度">
+      <Option Point="20">利刃+2</Option>
+      <Option Point="10">利刃+1</Option>
+      <Option Point="-10">鈍化</Option>
+    </Data>
+    <Data ID="0520" Name="巧流">
+      <Option Point="15">巧流</Option>
+    </Data>
+    <Data ID="0170" Name="刀匠">
+      <Option Point="20">真打+3</Option>
+      <Option Point="15">真打+2</Option>
+      <Option Point="10">真打+1</Option>
+    </Data>
+    <Data ID="0760" Name="匠">
+      <Option Point="10">銳利度等級+1</Option>
+    </Data>
+    <Data ID="0620" Name="劍術">
+      <Option Point="20">劍術+2</Option>
+      <Option Point="10">劍術+1</Option>
+    </Data>
+  </SkillType>
+  <SkillType TypeName="劍晶系">
+    <Data ID="1560" Name="爆擊劍">
+      <Option Point="20">爆擊劍+3</Option>
+      <Option Point="15">爆擊劍+2</Option>
+      <Option Point="10">爆擊劍+1</Option>
+    </Data>
+    <Data ID="1570" Name="猛毒劍">
+      <Option Point="20">猛毒劍+3</Option>
+      <Option Point="15">猛毒劍+2</Option>
+      <Option Point="10">猛毒劍+1</Option>
+    </Data>
+    <Data ID="1580" Name="麻痺劍">
+      <Option Point="20">麻痺劍+3</Option>
+      <Option Point="15">麻痺劍+2</Option>
+      <Option Point="10">麻痺劍+1</Option>
+    </Data>
+    <Data ID="1590" Name="睡眠劍">
+      <Option Point="20">睡眠劍+3</Option>
+      <Option Point="15">睡眠劍+2</Option>
+      <Option Point="10">睡眠劍+1</Option>
+    </Data>
+    <Data ID="1600" Name="火炎劍">
+      <Option Point="20">火炎劍+3</Option>
+      <Option Point="15">火炎劍+2</Option>
+      <Option Point="10">火炎劍+1</Option>
+    </Data>
+    <Data ID="1610" Name="水激劍">
+      <Option Point="20">水激劍+3</Option>
+      <Option Point="15">水激劍+2</Option>
+      <Option Point="10">水激劍+1</Option>
+    </Data>
+    <Data ID="1620" Name="雷神劍">
+      <Option Point="20">雷神劍+3</Option>
+      <Option Point="15">雷神劍+2</Option>
+      <Option Point="10">雷神劍+1</Option>
+    </Data>
+    <Data ID="1630" Name="冰結劍">
+      <Option Point="20">冰結劍+3</Option>
+      <Option Point="15">冰結劍+2</Option>
+      <Option Point="10">冰結劍+1</Option>
+    </Data>
+    <Data ID="1640" Name="龍王劍">
+      <Option Point="20">龍王劍+3</Option>
+      <Option Point="15">龍王劍+2</Option>
+      <Option Point="10">龍王劍+1</Option>
+    </Data>
+  </SkillType>
+  <SkillType TypeName="槍手系">
+    <Data ID="0240" Name="射手">
+      <Option Point="15">剛彈</Option>
+    </Data>
+    <Data ID="0850" Name="通常彈強化">
+      <Option Point="10">通常彈・連射箭威力UP</Option>
+    </Data>
+    <Data ID="0860" Name="貫通彈強化">
+      <Option Point="10">貫通彈・貫通箭威力UP</Option>
+    </Data>
+    <Data ID="0870" Name="散彈強化">
+      <Option Point="10">散彈・擴散箭威力UP</Option>
+    </Data>
+    <Data ID="0880" Name="通常彈追加">
+      <Option Point="15">通常彈全等級追加</Option>
+      <Option Point="10">通常彈LV1追加</Option>
+    </Data>
+    <Data ID="0890" Name="貫通彈追加">
+      <Option Point="20">貫通彈全等級追加</Option>
+      <Option Point="15">貫通彈LV1&amp;2追加</Option>
+      <Option Point="10">貫通彈LV1追加</Option>
+    </Data>
+    <Data ID="0900" Name="散彈追加">
+      <Option Point="20">散彈全等級追加</Option>
+      <Option Point="15">散彈LV1&amp;2追加</Option>
+      <Option Point="10">散彈LV1追加</Option>
+    </Data>
+    <Data ID="0910" Name="榴彈追加">
+      <Option Point="20">徹甲榴彈全等級追加</Option>
+      <Option Point="15">徹甲榴彈LV&amp;2追加</Option>
+      <Option Point="10">徹甲榴彈LV1追加</Option>
+    </Data>
+    <Data ID="0920" Name="擴散彈追加">
+      <Option Point="20">擴散彈全等級追加</Option>
+      <Option Point="15">擴散彈LV11&amp;2追加</Option>
+      <Option Point="10">擴散彈LV1追加</Option>
+    </Data>
+    <Data ID="1470" Name="毒瓶追加">
+      <Option Point="10">毒瓶追加</Option>
+    </Data>
+    <Data ID="1480" Name="麻痺瓶追加">
+      <Option Point="10">麻痺瓶追加</Option>
+    </Data>
+    <Data ID="1490" Name="睡眠瓶追加">
+      <Option Point="10">睡眠瓶追加</Option>
+    </Data>
+    <Data ID="0250" Name="裝著">
+      <Option Point="30">裝著+3</Option>
+      <Option Point="20">裝著+2</Option>
+      <Option Point="10">裝著+1</Option>
+    </Data>
+    <Data ID="1280" Name="裝填數">
+      <Option Point="10">裝填數UP</Option>
+    </Data>
+    <Data ID="0200" Name="速射">
+      <Option Point="15">速射</Option>
+    </Data>
+    <Data ID="0830" Name="連射">
+      <Option Point="10">連射</Option>
+    </Data>
+    <Data ID="0820" Name="裝填">
+      <Option Point="20">裝填速度+3</Option>
+      <Option Point="15">裝填速度+2</Option>
+      <Option Point="10">裝填速度+1</Option>
+      <Option Point="-10">裝填速度-1</Option>
+    </Data>
+    <Data ID="0840" Name="反動">
+      <Option Point="15">反動減輕+2</Option>
+      <Option Point="10">反動減輕+1</Option>
+    </Data>
+    <Data ID="0180" Name="扇射">
+      <Option Point="20">扇射+3</Option>
+      <Option Point="15">扇射+2</Option>
+      <Option Point="10">扇射+1</Option>
+    </Data>
+    <Data ID="1290" Name="精密射擊">
+      <Option Point="20">狙擊</Option>
+      <Option Point="10">偏移量DOWN</Option>
+      <Option Point="-10">偏移量UP</Option>
+    </Data>
+    <Data ID="1220" Name="子彈調合">
+      <Option Point="10">最大值子彈生產</Option>
+    </Data>
+    <Data ID="0420" Name="子彈節約術">
+      <Option Point="20">節約達人</Option>
+      <Option Point="10">節約名人</Option>
+    </Data>
+  </SkillType>
+  <SkillType TypeName="秘傳系">
+    <Data ID="0010" Name="單手劍技">
+      <Option Point="30">單手劍技【劍聖】</Option>
+      <Option Point="20">單手劍技【皆傳】</Option>
+      <Option Point="10">單手劍技【達人】</Option>
+      <Option Point="-10">單手劍技【未熟】</Option>
+    </Data>
+    <Data ID="0020" Name="雙劍技">
+      <Option Point="30">雙劍技【雙龍】</Option>
+      <Option Point="20">雙劍技【皆傳】</Option>
+      <Option Point="10">雙劍技【達人】</Option>
+      <Option Point="-10">雙劍技【未熟】</Option>
+    </Data>
+    <Data ID="0030" Name="大劍技">
+      <Option Point="30">大劍技【劍王】</Option>
+      <Option Point="20">大劍技【皆傳】</Option>
+      <Option Point="10">大劍技【達人】</Option>
+      <Option Point="-10">大劍技【未熟】</Option>
+    </Data>
+    <Data ID="0040" Name="太刀技">
+      <Option Point="30">太刀技【刀神】</Option>
+      <Option Point="20">太刀技【皆傳】</Option>
+      <Option Point="10">太刀技【達人】</Option>
+      <Option Point="-10">太刀技【未熟】</Option>
+    </Data>
+    <Data ID="0050" Name="大錘技">
+      <Option Point="30">大錘技【鈍器獸】</Option>
+      <Option Point="20">大錘技【皆傳】</Option>
+      <Option Point="10">大錘技【達人】</Option>
+      <Option Point="-10">大錘技【未熟】</Option>
+    </Data>
+    <Data ID="0060" Name="狩獵笛技">
+      <Option Point="30">狩獵笛技【奏帝】</Option>
+      <Option Point="20">狩獵笛技【皆傳】</Option>
+      <Option Point="10">狩獵笛技【達人】</Option>
+      <Option Point="-10">狩獵笛技【未熟】</Option>
+    </Data>
+    <Data ID="0070" Name="槍技">
+      <Option Point="30">槍技【天槍】</Option>
+      <Option Point="20">槍技【皆傳】</Option>
+      <Option Point="10">槍技【達人】</Option>
+      <Option Point="-10">槍技【未熟】</Option>
+    </Data>
+    <Data ID="0080" Name="銃槍技">
+      <Option Point="30">銃槍技【砲皇】</Option>
+      <Option Point="20">銃槍技【皆傳】</Option>
+      <Option Point="10">銃槍技【達人】</Option>
+      <Option Point="-10">銃槍技【未熟】</Option>
+    </Data>
+    <Data ID="0100" Name="穿龍棍技">
+      <Option Point="30">穿龍棍技【穿凰】</Option>
+      <Option Point="20">穿龍棍技【皆傳】</Option>
+      <Option Point="10">穿龍棍技【達人】</Option>
+      <Option Point="-10">穿龍棍技【未熟】</Option>
+    </Data>
+    <Data ID="0090" Name="重銃技">
+      <Option Point="30">重銃技【銃仙】</Option>
+      <Option Point="20">重銃技【皆傳】</Option>
+      <Option Point="10">重銃技【達人】</Option>
+      <Option Point="-10">重銃技【未熟】</Option>
+    </Data>
+    <Data ID="0110" Name="輕銃技">
+      <Option Point="30">輕銃技【銃傑】</Option>
+      <Option Point="20">輕銃技【皆傳】</Option>
+      <Option Point="10">輕銃技【達人】</Option>
+      <Option Point="-10">輕銃技【未熟】</Option>
+    </Data>
+    <Data ID="0120" Name="弓技">
+      <Option Point="30">弓技【弓鬼】</Option>
+      <Option Point="20">弓技【皆傳】</Option>
+      <Option Point="10">弓技【達人】</Option>
+      <Option Point="-10">弓技【未熟】</Option>
+    </Data>
+  </SkillType>
+  <SkillType TypeName="耐性技">
+    <Data ID="1040" Name="全耐性UP">
+      <Option Point="20">各耐性+20</Option>
+      <Option Point="15">各耐性+10</Option>
+      <Option Point="10">各耐性+5</Option>
+      <Option Point="-10">各耐性-5</Option>
+      <Option Point="-15">各耐性-10</Option>
+      <Option Point="-20">各耐性-20</Option>
+    </Data>
+    <Data ID="1050" Name="火耐性">
+      <Option Point="20">火耐性+30</Option>
+      <Option Point="15">火耐性+20</Option>
+      <Option Point="10">火耐性+10</Option>
+      <Option Point="-10">火耐性-10</Option>
+      <Option Point="-15">火耐性-20</Option>
+      <Option Point="-20">火耐性-30</Option>
+    </Data>
+    <Data ID="1060" Name="水耐性">
+      <Option Point="20">水耐性+30</Option>
+      <Option Point="15">水耐性+20</Option>
+      <Option Point="10">水耐性+10</Option>
+      <Option Point="-10">水耐性-10</Option>
+      <Option Point="-15">水耐性-20</Option>
+      <Option Point="-20">水耐性-30</Option>
+    </Data>
+    <Data ID="1070" Name="冰耐性">
+      <Option Point="20">冰耐性+30</Option>
+      <Option Point="15">冰耐性+20</Option>
+      <Option Point="10">冰耐性+10</Option>
+      <Option Point="-10">冰耐性-10</Option>
+      <Option Point="-15">冰耐性-20</Option>
+      <Option Point="-20">冰耐性-30</Option>
+    </Data>
+    <Data ID="1080" Name="雷耐性">
+      <Option Point="20">雷耐性+30</Option>
+      <Option Point="15">雷耐性+20</Option>
+      <Option Point="10">雷耐性+10</Option>
+      <Option Point="-10">雷耐性-10</Option>
+      <Option Point="-15">雷耐性-20</Option>
+      <Option Point="-20">雷耐性-30</Option>
+    </Data>
+    <Data ID="1090" Name="龍耐性">
+      <Option Point="20">龍耐性+30</Option>
+      <Option Point="15">龍耐性+20</Option>
+      <Option Point="10">龍耐性+10</Option>
+      <Option Point="-10">龍耐性-10</Option>
+      <Option Point="-15">龍耐性-20</Option>
+      <Option Point="-20">龍耐性-30</Option>
+    </Data>
+  </SkillType>
+  <SkillType TypeName="異常狀態系">
+    <Data ID="0690" Name="抗毒">
+      <Option Point="20">中毒無效</Option>
+      <Option Point="10">中毒減半</Option>
+      <Option Point="-10">中毒加倍</Option>
+    </Data>
+    <Data ID="0660" Name="抗麻痺">
+      <Option Point="20">麻痺無效</Option>
+      <Option Point="10">麻痺減半</Option>
+      <Option Point="-10">麻痺加倍</Option>
+    </Data>
+    <Data ID="0670" Name="抗睡眠">
+      <Option Point="20">睡眠無效</Option>
+      <Option Point="10">睡眠減半</Option>
+      <Option Point="-10">睡眠加倍</Option>
+    </Data>
+    <Data ID="0610" Name="耐狀態異常">
+      <Option Point="20">狀態異常無效</Option>
+      <Option Point="10">狀態異常減半</Option>
+      <Option Point="-10">狀態異常加倍</Option>
+    </Data>
+    <Data ID="0680" Name="抗暈眩">
+      <Option Point="20">暈眩無效</Option>
+      <Option Point="10">暈眩確率減半</Option>
+      <Option Point="-10">暈眩加倍</Option>
+    </Data>
+    <Data ID="0700" Name="除臭">
+      <Option Point="10">除臭</Option>
+    </Data>
+    <Data ID="0710" Name="耐雪">
+      <Option Point="10">耐雪</Option>
+    </Data>
+    <Data ID="1350" Name="聲帶">
+      <Option Point="15">聲帶麻痺毒無效</Option>
+      <Option Point="10">聲帶麻痺毒減半</Option>
+    </Data>
+    <Data ID="0650" Name="對防禦DOWN">
+      <Option Point="10">厚皮</Option>
+    </Data>
+    <Data ID="0370" Name="耐醉">
+      <Option Point="10">酒豪</Option>
+      <Option Point="-10">醉鬼</Option>
+    </Data>
+    <Data ID="0390" Name="磁力耐性">
+      <Option Point="10">磁力耐性</Option>
+      <Option Point="-10">磁力弱點</Option>
+    </Data>
+    <Data ID="0380" Name="結晶耐性">
+      <Option Point="10">結晶耐性</Option>
+      <Option Point="-10">結晶弱點</Option>
+    </Data>
+  </SkillType>
+  <SkillType TypeName="其他傷害防護系">
+    <Data ID="0210" Name="三界的守護">
+      <Option Point="20">豪放+3</Option>
+      <Option Point="15">豪放+2</Option>
+      <Option Point="10">豪放+1</Option>
+    </Data>
+    <Data ID="1000" Name="聽覺保護">
+      <Option Point="25">超高級耳栓</Option>
+      <Option Point="15">高級耳栓</Option>
+      <Option Point="10">耳栓</Option>
+    </Data>
+    <Data ID="1340" Name="耐震">
+      <Option Point="25">耐震+2</Option>
+      <Option Point="15">耐震+1</Option>
+    </Data>
+    <Data ID="1120" Name="風壓">
+      <Option Point="30">暴風壓無效</Option>
+      <Option Point="20">龍風壓無效</Option>
+      <Option Point="15">風壓【大】無效</Option>
+      <Option Point="10">風壓【小】無效</Option>
+    </Data>
+    <Data ID="1010" Name="偷竊無效">
+      <Option Point="10">偷竊無效</Option>
+    </Data>
+    <Data ID="1100" Name="耐暑">
+      <Option Point="25">夏男夏女</Option>
+      <Option Point="15">炎暑無效</Option>
+      <Option Point="10">炎暑減半</Option>
+      <Option Point="-10">炎暑加倍【小】</Option>
+      <Option Point="-20">炎暑加倍【大】</Option>
+    </Data>
+    <Data ID="1110" Name="耐寒">
+      <Option Point="25">冬將軍</Option>
+      <Option Point="15">寒冷無效</Option>
+      <Option Point="10">寒冷減半</Option>
+      <Option Point="-10">寒冷加倍【小】</Option>
+      <Option Point="-20">寒冷加倍【大】</Option>
+    </Data>
+    <Data ID="0290" Name="警戒">
+      <Option Point="10">警戒</Option>
+    </Data>
+    <Data ID="1330" Name="地形">
+      <Option Point="15">地形傷害減【大】</Option>
+      <Option Point="10">地形傷害減【小】</Option>
+      <Option Point="-10">地形傷害增【小】</Option>
+      <Option Point="-15">地形傷害增【大】</Option>
+    </Data>
+    <Data ID="1240" Name="迴避性能">
+      <Option Point="20">迴避性能+2</Option>
+      <Option Point="10">迴避性能+1</Option>
+    </Data>
+    <Data ID="0400" Name="迴避距離">
+      <Option Point="20">迴避距離UP</Option>
+    </Data>
+    <Data ID="1430" Name="守勢">
+      <Option Point="10">守勢</Option>
+    </Data>
+    <Data ID="0990" Name="審判">
+      <Option Point="20">女神的擁抱</Option>
+      <Option Point="10">女神的寬恕</Option>
+      <Option Point="-10">死神的制裁</Option>
+      <Option Point="-20">死神的擁抱</Option>
+    </Data>
+    <Data ID="0590" Name="毅力">
+      <Option Point="30">超強毅力</Option>
+      <Option Point="20">堅毅力</Option>
+      <Option Point="10">毅力</Option>
+    </Data>
+    <Data ID="0530" Name="絕對防禦">
+      <Option Point="20">絕對防禦態勢</Option>
+    </Data>
+  </SkillType>
+  <SkillType TypeName="道具使用・調和系">
+    <Data ID="0260" Name="調合師">
+      <Option Point="20">調合師+3</Option>
+      <Option Point="15">調合師+2</Option>
+      <Option Point="10">調合師+1</Option>
+      <Option Point="-10">調合師-1</Option>
+    </Data>
+    <Data ID="1260" Name="效果持續">
+      <Option Point="10">道具使用強化</Option>
+      <Option Point="-10">道具使用弱化</Option>
+    </Data>
+    <Data ID="1020" Name="廣域">
+      <Option Point="30">廣域化+3</Option>
+      <Option Point="20">廣域化+2</Option>
+      <Option Point="10">廣域化+1</Option>
+      <Option Point="-10">廣域化-1</Option>
+    </Data>
+    <Data ID="1160" Name="反覆無常">
+      <Option Point="15">神的反覆無常</Option>
+      <Option Point="10">精靈的反覆無常</Option>
+      <Option Point="-10">惡靈的反覆無常</Option>
+      <Option Point="-15">惡魔的反覆無常</Option>
+    </Data>
+    <Data ID="0810" Name="投擲">
+      <Option Point="10">投擲技術UP</Option>
+    </Data>
+    <Data ID="1410" Name="強力投手">
+      <Option Point="20">強力投手+2</Option>
+      <Option Point="10">強力投手+1</Option>
+    </Data>
+    <Data ID="0360" Name="獵人">
+      <Option Point="20">獵人享受</Option>
+      <Option Point="10">獵人生活</Option>
+    </Data>
+    <Data ID="1360" Name="烤肉">
+      <Option Point="15">烤肉大師</Option>
+      <Option Point="10">烤肉名人</Option>
+      <Option Point="-10">自稱・烤肉名人</Option>
+    </Data>
+    <Data ID="1180" Name="釣魚">
+      <Option Point="10">釣魚名人</Option>
+    </Data>
+    <Data ID="1210" Name="調合成功率">
+      <Option Point="20">調合成功率+30%</Option>
+      <Option Point="15">調合成功率+15%</Option>
+      <Option Point="10">調合成功率+10%</Option>
+      <Option Point="-10">調合成功率-5%</Option>
+    </Data>
+    <Data ID="1230" Name="鍊金術">
+      <Option Point="10">鍊金術</Option>
+    </Data>
+    <Data ID="0600" Name="高速設置">
+      <Option Point="20">陷阱大師</Option>
+      <Option Point="10">陷阱師</Option>
+    </Data>
+    <Data ID="0320" Name="鐵臂">
+      <Option Point="20">鐵臂+2</Option>
+      <Option Point="10">鐵臂+1</Option>
+    </Data>
+    <Data ID="0630" Name="飛刀手">
+      <Option Point="20">飛刀+2</Option>
+      <Option Point="10">飛刀+1</Option>
+    </Data>
+  </SkillType>
+  <SkillType TypeName="地圖・探查系">
+    <Data ID="1130" Name="地圖">
+      <Option Point="10">地圖常備</Option>
+    </Data>
+    <Data ID="1190" Name="千里眼">
+      <Option Point="15">自動記號</Option>
+      <Option Point="10">探知</Option>
+    </Data>
+    <Data ID="0720" Name="動靜能力">
+      <Option Point="10">隱密</Option>
+      <Option Point="-10">挑撥</Option>
+    </Data>
+    <Data ID="0490" Name="煽動">
+      <Option Point="10">煽動</Option>
+    </Data>
+  </SkillType>
+  <SkillType TypeName="採集・搬運系">
+    <Data ID="1030" Name="運搬">
+      <Option Point="10">運搬的達人</Option>
+    </Data>
+    <Data ID="1150" Name="高速收集">
+      <Option Point="10">高速剝取＆採集</Option>
+    </Data>
+    <Data ID="1140" Name="採集">
+      <Option Point="15">採集+2</Option>
+      <Option Point="10">採集+1</Option>
+      <Option Point="-10">採集-1</Option>
+      <Option Point="-15">採集-2</Option>
+    </Data>
+    <Data ID="1320" Name="剝取">
+      <Option Point="15">剝取名人</Option>
+    </Data>
+    <Data ID="0550" Name="平常心">
+      <Option Point="15">堅如磐石</Option>
+      <Option Point="10">萬全防備</Option>
+      <Option Point="-10">粗心大意</Option>
+    </Data>
+  </SkillType>
+  <SkillType TypeName="報酬系">
+    <Data ID="1170" Name="運氣">
+      <Option Point="20">激運</Option>
+      <Option Point="10">幸運</Option>
+      <Option Point="-10">惡運</Option>
+      <Option Point="-20">災難</Option>
+    </Data>
+    <Data ID="1440" Name="壓力">
+      <Option Point="20">壓力【大】</Option>
+      <Option Point="10">壓力【小】</Option>
+    </Data>
+    <Data ID="1300" Name="魔物">
+      <Option Point="10">大魔物放馬來吧！</Option>
+    </Data>
+  </SkillType>
+  <SkillType TypeName="其他">
+    <Data ID="0330" Name="育成">
+      <Option Point="10">育成</Option>
+    </Data>
+    <Data ID="1450" Name="羈絆">
+      <Option Point="10">羈絆</Option>
+    </Data>
+    <Data ID="1420" Name="靈光一現">
+      <Option Point="10">靈光一現</Option>
+    </Data>
+    <Data ID="1460" Name="捕獲高手">
+      <Option Point="20">捕獲名人</Option>
+      <Option Point="10">捕獲高手</Option>
+    </Data>
+    <Data ID="0350" Name="救援">
+      <Option Point="10">救援</Option>
+    </Data>
+    <Data ID="0640" Name="慰勞">
+      <Option Point="45">慰勞+3</Option>
+      <Option Point="25">慰勞+2</Option>
+      <Option Point="10">慰勞+1</Option>
+    </Data>
+    <Data ID="0430" Name="移動速度">
+      <Option Point="20">移動速度UP+2</Option>
+      <Option Point="10">移動速度UP+1</Option>
+    </Data>
+    <Data ID="0440" Name="喝采">
+      <Option Point="10">赤魂</Option>
+      <Option Point="-10">青魂</Option>
+    </Data>
+    <Data ID="0540" Name="支援">
+      <Option Point="10">支援</Option>
+    </Data>
+    <Data ID="0160" Name="恩寵">
+      <Option Point="30">恩寵+3</Option>
+      <Option Point="20">恩寵+2</Option>
+      <Option Point="10">恩寵+1</Option>
+    </Data>
+    <Data ID="0190" Name="代償">
+      <Option Point="10">代償</Option>
+    </Data>
+    <Data ID="0470" Name="黑之命脈">
+      <Option Point="20">最終的閃黑</Option>
+    </Data>
+    <Data ID="0500" Name="炎寵">
+      <Option Point="15">紅焔の威光+2</Option>
+      <Option Point="10">紅焔の威光+1</Option>
+    </Data>
+  </SkillType>
+</Skill>
+<!--
+MHSX2 原作者：http://mhsx2.web.fc2.con 繁體譯：蘋果核戰 Game ID : 藍羽淺蔥
+-->
