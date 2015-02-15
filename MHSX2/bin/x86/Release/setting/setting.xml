@@ -17,15 +17,15 @@
   <PictureServer>http://fortune.adam.ne.jp/mhf/cbbs/file</PictureServer>
   <UseNetwork>false</UseNetwork>
   <MainBounds>
-    <X>1251</X>
-    <Y>336</Y>
+    <X>1004</X>
+    <Y>292</Y>
     <Width>1024</Width>
     <Height>815</Height>
     <State>Normal</State>
   </MainBounds>
   <EditBounds>
-    <X>0</X>
-    <Y>0</Y>
+    <X>848</X>
+    <Y>437</Y>
     <Width>1024</Width>
     <Height>768</Height>
     <State>Normal</State>

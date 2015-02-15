@@ -27,3 +27,5 @@ D:\Users\YangWen\Downloads\MHSX2_source\MHSX2_source\MHSX2\obj\x64\Release\MHSX2
 D:\Users\YangWen\Downloads\MHSX2_source\MHSX2_source\MHSX2\obj\x64\Release\MHSX2.exe.manifest
 D:\Users\YangWen\Downloads\MHSX2_source\MHSX2_source\MHSX2\obj\x64\Release\MHSX2.application
 D:\Users\YangWen\Downloads\MHSX2_source\MHSX2_source\MHSX2\obj\x64\Release\MHSX2.exe
+D:\Database\GitHub\MHSX2\MHSX2\bin\x64\Release\MHSX2.exe.config
+D:\Database\GitHub\MHSX2\MHSX2\obj\x64\Release\MHSX2.exe
