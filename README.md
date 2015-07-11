@@ -1,4 +1,4 @@
-# Monster Hunter Frontier G Equipment Configurator
+# Monster Hunter Frontier G Equipment Configurator (Fork & Backup)
 
 This is an equipment configurator for MHFG. Original by ◆7SJ5A6iS9s.
 
